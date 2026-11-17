@@ -8,4 +8,4 @@ Only test a local Juice Shop instance you own or have explicit permission to ass
 6. Rate risk with a documented method (e.g. CVSS 4.0), state assumptions, impact and remediation.
 7. Retest fixes and attach before/after evidence.
 Finding template: ID, title, endpoint, parameter, severity, preconditions, safe reproduction, expected/observed, evidence, impact, remediation, retest.
-No VAPT findings are claimed as completed in this package.
+This package includes a limited, manually validated assessment of a local OWASP Juice Shop instance. The findings, supporting evidence, and scope limitations are documented in Juice_Shop_Web_VAPT_Report.docx. This assessment does not represent a complete application security audit.
