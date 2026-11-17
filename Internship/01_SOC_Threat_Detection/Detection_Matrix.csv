@@ -1,0 +1,5 @@
+Rule ID,Detection,Source,Severity,ATT&CK,Status,Caveat
+100010,Repeated failed Windows logins,Security Event ID 4625,10,T1110,Verified,Review legitimate lockouts
+100020,Notepad process creation,Sysmon Event ID 1,5,,Verified,Notepad execution is normally benign
+100021,PowerShell process creation,Sysmon Event ID 1,7,,Verified,PowerShell is also used administratively
+100030,Long DNS query name,Sysmon Event ID 22,10,T1071.004,Verified heuristic,Length alone does not prove tunnelling

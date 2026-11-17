@@ -1,0 +1,13 @@
+Evidence ID,Module,Description,Filename,Timestamp with timezone,Source,Collection method,SHA-256,Status,Notes
+SOC-001,SOC,Wazuh manager active,,,,,,Pending,Attach screenshot
+SOC-002,SOC,Windows agent connected,,,,,,Pending,Attach screenshot
+SOC-003,SOC,Rule 100010 alert,,,,,,Verified in prior lab output,Attach screenshot/export
+SOC-004,SOC,Rule 100020 alert,,,,,,Verified in prior lab output,Attach screenshot/export
+SOC-005,SOC,Rule 100021 alert,,,,,,Verified in prior lab output,Attach screenshot/export
+SOC-006,SOC,Rule 100030 heuristic alert,,,,,,Verified in prior lab output,Attach screenshot/export
+DFIR-001,DFIR,Evidence archive SHA-256,,,,,,Pending,Use real evidence
+DFIR-002,DFIR,Chain of custody,,,,,,Pending,Complete per evidence item
+DFIR-003,DFIR,Investigation timeline,,,,,,Pending,Reference source logs
+VAPT-001,VAPT,Rules of engagement,,,,,,Pending,Local Juice Shop only
+VAPT-002,VAPT,Validated findings,,,,,,Pending,Manual validation required
+BRUTUS-001,Brutus,Original archive hash,,,,,,Pending,Official HTB archive

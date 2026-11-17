@@ -1,0 +1,8 @@
+<Sysmon schemaversion="4.90">
+  <EventFiltering>
+    <RuleGroup name="SOC Lab Monitoring" groupRelation="or">
+      <ProcessCreate onmatch="exclude" />
+      <DnsQuery onmatch="exclude" />
+    </RuleGroup>
+  </EventFiltering>
+</Sysmon>
